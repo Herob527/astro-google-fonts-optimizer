@@ -9,11 +9,11 @@ The project is inspired by the [NextJS Google Fonts automatic optimization](http
 ## Installation
 
 ```bash
-npm install astro-google-fonts-optimizer
+npm install @herob191/astro-google-fonts-optimizer
 ## or yarn
-yarn add astro-google-fonts-optimizer
+yarn add @herob191/astro-google-fonts-optimizer
 ## or pnpm
-pnpm add astro-google-fonts-optimizer
+pnpm add @herob191/astro-google-fonts-optimizer
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ Just copy the URL of the google fonts stylesheet and use the component like this
 
 ```astro
 ---
-import { GoogleFontsOptimizer } from "astro-google-fonts-optimizer";
+import { GoogleFontsOptimizer } from "@herob191/astro-google-fonts-optimizer";
 ---
 <head>
     <meta charset="utf-8" />

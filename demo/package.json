@@ -1,5 +1,5 @@
 {
-  "name": "astro-google-fonts-optimizer-demo",
+  "name": "@herob191/astro-google-fonts-optimizer-demo",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -12,6 +12,6 @@
     "astro": "^1.0.0-beta.73"
   },
   "dependencies": {
-    "astro-google-fonts-optimizer": "workspace:*"
+    "@herob191/astro-google-fonts-optimizer": "workspace:*"
   }
 }
