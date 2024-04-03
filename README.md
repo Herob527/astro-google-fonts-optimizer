@@ -2,7 +2,7 @@
 
 This package differs from original that it caches results using in-memory cache and retries queries on failure
 
-It'll become deprecated when original authors will accept PR
+It'll become deprecated when original authors will accept PR / add caching
 
 # Astro Google Fonts Optimizer 🚀
 
