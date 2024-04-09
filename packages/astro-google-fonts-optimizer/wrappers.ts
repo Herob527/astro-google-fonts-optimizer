@@ -1,9 +1,9 @@
-type Fn<Args extends unknown[], ReturnType> = (
+type Fn<Args extends any[], ReturnType> = (
   ...args: Args
 ) => Promise<ReturnType>;
 
 // Define the cacheWrapper function with type safety
-export const cacheWrapper = <Args extends unknown[], ReturnType>(
+export const cacheWrapper = <Args extends any[], ReturnType>(
   fn: Fn<Args, ReturnType>,
 ): Fn<Args, ReturnType> => {
   const cache = new Map<string, ReturnType>();
